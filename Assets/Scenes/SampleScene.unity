@@ -809,6 +809,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -881,6 +882,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1030254150
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,10 +947,15 @@ Terrain:
   m_AllowAutoConnect: 1
 --- !u!4 &1030254153
 Transform:
+=======
+--- !u!114 &963194229
+MonoBehaviour:
+>>>>>>> ec687c736f687549b6791213e34d28a5fc20913e
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1030254150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1054,6 +1061,17 @@ MeshFilter:
   m_GameObject: {fileID: 1244554905}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1280442889
+=======
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a89e030bd9c7c74092d4ec4b8a4112f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offset: {x: 7, y: -3, z: 0}
+  playerTransform: {fileID: 1309773228}
+--- !u!1 &1030254150
+>>>>>>> ec687c736f687549b6791213e34d28a5fc20913e
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1114,8 +1132,18 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+<<<<<<< HEAD
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+=======
+  m_MaterialTemplate: {fileID: 2100000, guid: 5d8af8f434f69794eabd684fb44b4fbf, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+>>>>>>> ec687c736f687549b6791213e34d28a5fc20913e
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
